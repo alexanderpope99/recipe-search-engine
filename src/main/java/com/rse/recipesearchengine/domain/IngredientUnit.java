@@ -7,8 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Tag {
+public class IngredientUnit {
 
 	private String name;
+
+	private Double gramWeight;
 
 }

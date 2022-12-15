@@ -2,22 +2,21 @@ package com.rse.recipesearchengine.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NonNull;
+import lombok.Setter;
 
-import java.util.UUID;
+import java.util.List;
 
 @Getter
+@Setter
 @AllArgsConstructor
 public class Instruction {
 
-	@NonNull
-	private String description;
-
-	@NonNull
 	private Integer step;
 
-	private Integer prepTime;
+	private String title;
 
-	private Integer cookTime;
+	private String description;
+
+	private List<Image> images;
 
 }

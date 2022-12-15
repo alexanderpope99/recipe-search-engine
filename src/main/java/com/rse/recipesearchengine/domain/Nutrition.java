@@ -7,8 +7,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Tag {
+public class Nutrition {
 
-	private String name;
+	private Double protein;
+
+	private Double carbs;
+
+	private Double fat;
+
+	private Double fiber;
 
 }

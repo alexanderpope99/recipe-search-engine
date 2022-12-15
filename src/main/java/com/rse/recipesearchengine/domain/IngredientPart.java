@@ -4,11 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Getter
 @Setter
 @AllArgsConstructor
-public class Tag {
+public class IngredientPart {
 
-	private String name;
+	private String title;
+
+	private List<RecipeIngredient> recipeIngredients;
 
 }

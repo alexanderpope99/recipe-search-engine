@@ -7,8 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class Tag {
+public class RecipeYield {
 
-	private String name;
+	private Double amount;
+
+	private String text;
 
 }
